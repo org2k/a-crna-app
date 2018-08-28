@@ -7,3 +7,8 @@ it('renders without crashing', () => {
   const rendered = renderer.create(<App />).toJSON();
   expect(rendered).toBeTruthy();
 });
+
+it('is a dummy but it might work', () => {
+  const tendered = true;
+  expect(tendered).toBeTruthy();
+});
