@@ -31,6 +31,8 @@
     "jest": "jest"
   },
   "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true,
     "preset": "jest-expo"
   },
   "dependencies": {
