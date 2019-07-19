@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import utilFunc from 'App-util1';
 
-export default class App extends React.Component {
+export default class AppAlt extends React.Component {
   render() {
     return (
       <View style={styles.container}>
